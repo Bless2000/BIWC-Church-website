@@ -54,4 +54,3 @@ export const data = [
     img: sundaySchoolImg,
   }
 ];
-
