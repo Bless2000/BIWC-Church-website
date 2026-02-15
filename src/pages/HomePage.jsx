@@ -1,16 +1,20 @@
 
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
-import MessagePastor from  '../components/MessagePastor'
+import VerseOfTheDay from '../components/VerseOfTheDay';
+import PastorMessage from '../components/PastorMessage';
+import Ministries from '../components/Ministries';
 
 const HomePage = () => {
   return (
     <div>
       <Navbar />
       <Hero />
-      <MessagePastor />
+      <VerseOfTheDay />
+      <PastorMessage />
+      <Ministries />
     </div>
   );
 };
 
-export default HomePage
+export default HomePage;

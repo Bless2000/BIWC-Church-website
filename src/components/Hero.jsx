@@ -70,7 +70,7 @@ const Hero = () => {
                 aria-hidden="true"
                 className="absolute inset-0"
                 style={{
-                  background: `linear-gradient(135deg, rgba(1, 1, 18, 0.2) 0%, rgba(1, 1, 18, 0.2) 100%)`,
+                  background: `linear-gradient(135deg, rgba(1, 1, 18, 0.15) 0%, rgba(1, 1, 18, 0.15) 100%)`,
                 }}
               />
 
