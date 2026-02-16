@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { events } from "../data/events";
 import heroImg from '../assets/img/eventsHero.jpg';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const EventsPage = () => {
   const navigate = useNavigate();
@@ -79,7 +80,7 @@ const EventsPage = () => {
 
         </div>
       </section>
-
+          <Footer />
     </div>
   );
 };

@@ -6,6 +6,8 @@ import Auxiliaries from '../components/Auxiliaries';
 import WorshipSection from '../components/WorshipSection';
 import HomepageEvents from '../components/Events';
 import About from '../components/About';
+import Sermons from '../components/Sermons';
+import Footer from '../components/Footer'
 
 const HomePage = () => {
   return (
@@ -17,6 +19,8 @@ const HomePage = () => {
       <Auxiliaries />
       <WorshipSection />
       <HomepageEvents />
+      <Sermons />
+      <Footer />
     </div>
   );
 };
