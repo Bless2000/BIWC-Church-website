@@ -41,7 +41,7 @@ const WorshipSection = () => {
           <div className="bg-white rounded-2xl shadow-lg p-8 text-center">
             <Clock className="mx-auto mb-4 text-blue-900" size={28} />
             <h3 className="text-2xl font-bold mb-2">Sunday Mornings</h3>
-            <p className="text-gray-600">9:00am & 10:00am</p>
+            <p className="text-gray-600">7:00am - 9:00am</p>
           </div>
 
           {/* Location Card */}

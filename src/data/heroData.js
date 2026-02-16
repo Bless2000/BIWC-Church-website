@@ -33,10 +33,10 @@ export const data = [
     id: 3,
     colorDeep: "#304e70",
     colorLite: "#d3dce0",
-    mainText: "Donate",
+    mainText: "Give",
     subText:
       "Support Our Mission: Your Generosity Helps Us Serve Our Community and Spread Love",
-    buttonText: "Donate Now",
+    buttonText: "Give Online",
     shadow: "0px 10px 20px rgba(67, 30, 30, 0.8)",
     mobileShadow: "0px 5px 20px rgba(67, 30, 30, 0.8)",
     img: heroImg4,
