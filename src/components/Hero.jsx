@@ -96,6 +96,12 @@ const Hero = () => {
                         if (buttonText === "Explore") {
                             navigate('/events');
                         }
+                        if(buttonText === "Get To Know Us") {
+                            navigate('/about')
+                        }
+                        if(buttonText === "Worship with Us") {
+                          navigate('/BecomeMember')
+                        }
                     }}
                     className="btn mt-8 text-xl font-black py-4 px-9 focus:outline-none border-0 text-white"
                     style={{

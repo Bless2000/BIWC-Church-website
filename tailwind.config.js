@@ -7,12 +7,19 @@ export default {
     './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        sans: ['Nunito Sans', ...defaultTheme.fontFamily.sans],
-        heading: ['Poetsen One', ...defaultTheme.fontFamily.sans],
-      },
-      colors: {
+          extend: {
+            fontFamily: {
+              sans: ['Nunito Sans', ...defaultTheme.fontFamily.sans],
+              heading: ['Poetsen One', ...defaultTheme.fontFamily.sans],
+              lato: ['Lato', ...defaultTheme.fontFamily.sans],
+              playfair: ['Playfair Display', ...defaultTheme.fontFamily.sans],
+            },
+            backgroundImage: {
+              'radial-gold-accent': 'radial-gradient(circle, rgba(200,150,62,0.22) 0%, transparent 70%)',
+                        'radial-gold-accent-2': 'radial-gradient(circle, rgba(200,150,62,0.13) 0%, transparent 70%)',
+                                  'subtle-grain': `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E")`,
+                                  'bg-divider-gold': 'linear-gradient(90deg, #C8963E, #f5c97a, #C8963E)',
+                                },      colors: {
         'primary': {
           50: '#f0f9ff',
           100: '#e0f2fe',

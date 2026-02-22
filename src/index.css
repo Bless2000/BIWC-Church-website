@@ -73,5 +73,71 @@ body.dark .btn { background: rgba(10, 18, 38, 0.60); }
 
 body.dark .btn-ghost { background: rgba(10, 18, 38, 0.36); }
 
+.hero-bg {
+  background: linear-gradient(135deg, #0f0f0f 0%, #1c1208 40%, #0f0f0f 100%);
+}
+
+.gold-underline::after {
+  content: '';
+  display: block;
+  height: 4px;
+  border-radius: 2px;
+  background: #C8963E;
+  margin-top: 6px;
+  transform-origin: left;
+  animation: underlineGrow 0.8s 0.4s both cubic-bezier(0.4,0,0.2,1);
+}
+
+@keyframes underlineGrow {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+.gold-underline {
+  display: inline-block;
+  position: relative;
+}
+
+.hero-text-1 { animation: heroReveal 0.8s 0.2s both ease; }
+.hero-text-2 { animation: heroReveal 0.8s 0.45s both ease; }
+.hero-text-3 { animation: heroReveal 0.8s 0.7s both ease; }
+
+.divider-line {
+  transform-origin: left;
+  animation: underlineGrow 0.9s 1s both cubic-bezier(0.4,0,0.2,1);
+}
+
+.section-fade {
+  animation: fadeUp 0.7s ease both;
+}
+
+.scroll-indicator {
+  animation: fadeUp 1s 1.4s both ease;
+}
+
+.cta-btn {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: background 0.2s, transform 0.15s;
+}
+
+@keyframes heroReveal {
+  from { opacity: 0; transform: translateY(40px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+
 
 

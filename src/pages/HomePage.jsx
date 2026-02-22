@@ -5,7 +5,7 @@ import PastorMessage from '../components/PastorMessage';
 import Auxiliaries from '../components/Auxiliaries';
 import WorshipSection from '../components/WorshipSection';
 import HomepageEvents from '../components/Events';
-import About from '../components/About';
+import AboutUs from '../components/AboutUs';
 import Sermons from '../components/Sermons';
 import Footer from '../components/Footer'
 
@@ -14,7 +14,7 @@ const HomePage = () => {
     <div>
       <Hero />
       <VerseOfTheDay />
-      <About />
+      <AboutUs />
       <PastorMessage />
       <Auxiliaries />
       <WorshipSection />

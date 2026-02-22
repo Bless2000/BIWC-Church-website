@@ -1,7 +1,11 @@
 import React from "react";
 import { MapPin, Clock, ArrowUpRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const WorshipSection = () => {
+
+    const navigate = useNavigate()
+
   return (
     <section className="px-6 py-16 bg-gray-100">
       <div className="max-w-7xl mx-auto relative">
@@ -28,7 +32,7 @@ const WorshipSection = () => {
               <ArrowUpRight size={18} />
             </button>
 
-            <button className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition">
+            <button onClick={() => navigate("/sermons")} className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition">
               WATCH
             </button>
           </div>

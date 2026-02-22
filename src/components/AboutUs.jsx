@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import aboutImage from "../assets/img/people.webp"; // replace with your actual image
 
-const About = () => { // Changed from AboutPreview to About
+const AboutPreview = () => {
   const navigate = useNavigate();
 
   return (
@@ -67,4 +67,4 @@ const About = () => { // Changed from AboutPreview to About
   );
 };
 
-export default About;
+export default AboutPreview;
