@@ -14,10 +14,10 @@ const HomePage = () => {
     <div>
       <Hero />
       <VerseOfTheDay />
-      <AboutUs />
+      {/* <AboutUs /> */}
+      <WorshipSection />
       <PastorMessage />
       <Auxiliaries />
-      <WorshipSection />
       <HomepageEvents />
       <Sermons />
       <Footer />
